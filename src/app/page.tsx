@@ -70,7 +70,7 @@ export default function Home() {
           <span className="text-[#8B7B6B]"> GROW WITH PURPOSE</span>
         </h1>
         <p className="text-[11px] text-gray-400 dark:text-gray-500 tracking-wide">
-          ZERO COMPROMISE. YOUR WEALTH. YOUR VALUES. ZERO COMPROMISE.
+          ZERO COMPROMISE. YOUR WEALTH. YOUR VALUES.
         </p>
       </div>
 
