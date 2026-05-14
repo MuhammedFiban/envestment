@@ -66,8 +66,8 @@ export default function Home() {
       {/* Hero block */}
       <div className="text-center space-y-2">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100">
-          INVEST WITH INTEGRITY.
-          <span className="text-[#8B7B6B]">GROW WITH PURPOSE</span>
+          INVEST WITH INTEGRITY
+          <span className="text-[#8B7B6B]"> GROW WITH PURPOSE</span>
         </h1>
         <p className="text-[11px] text-gray-400 dark:text-gray-500 tracking-wide">
           ZERO COMPROMISE. YOUR WEALTH. YOUR VALUES. ZERO COMPROMISE.
