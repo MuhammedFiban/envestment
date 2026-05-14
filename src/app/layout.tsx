@@ -53,6 +53,11 @@ export default function RootLayout({
             `,
           }}
         />
+        {/* Favicon + mobile icons */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#8B7B6B" />
       </head>
       <body className="bg-white dark:bg-slate-900 text-gray-900 dark:text-slate-200 flex flex-col min-h-screen transition-colors">
         <ThemeProvider>
@@ -67,8 +72,19 @@ export default function RootLayout({
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="14" cy="14" r="14" fill="#1D1D1F" />
-                  <polygon points="14,6 24,22 4,22" fill="#FFFFFF" />
+                  {/* Crescent */}
+                  <path
+                    d="M18 6C14.6863 8.68629 12 13.0294 12 18C12 22.9706 14.6863 25.3137 18 28C13.0294 28 8.68629 24.3137 6 20C3.31371 15.6863 3.31371 10.3137 6 6C8.68629 1.68629 13.0294 -2 18 -2C14.6863 0.686292 12 5.02944 12 10C12 14.9706 14.6863 19.3137 18 22Z"
+                    fill="#1D1D1F"
+                  />
+                  {/* Letter E */}
+                  <path
+                    d="M18 7V10H24M18 14H22M18 18H24M18 14V18"
+                    stroke="#FFFFFF"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
                 </svg>
                 <div className="flex flex-col leading-tight">
                   <span className="text-lg font-semibold tracking-tight text-gray-900 dark:text-gray-100">
