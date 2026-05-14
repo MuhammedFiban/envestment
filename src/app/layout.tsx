@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Search, Calculator, Table, BookOpen } from "lucide-react";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import ThemeToggle from "@/components/ThemeToggle";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title:
@@ -36,7 +37,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Inline script: applies dark class BEFORE React loads → no flash */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -152,7 +152,7 @@ export default function RootLayout({
             © ENVESTMENT · SHARIAH‑ALIGNED · EDUCATIONAL ONLY
           </footer>
 
-          {/* Mobile bottom nav – without home icon */}
+          {/* Mobile bottom nav */}
           <nav className="bottom-nav md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white/95 dark:bg-[#1a1a1a]/95 backdrop-blur-md border-t border-gray-200 dark:border-gray-700 px-2 py-2 flex justify-around items-center text-xs shadow-[0_-4px_12px_rgba(0,0,0,0.04)]">
             <Link
               href="/screener"
@@ -191,6 +191,7 @@ export default function RootLayout({
             </Link>
           </nav>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
