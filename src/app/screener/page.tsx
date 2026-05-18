@@ -193,7 +193,7 @@ export default function ResearchDeskPage() {
       {/* Step 3: Verify a Stock (Screener.in) */}
       <section>
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
-          STEP 3: VERIFY A STOCK YOURSELF
+          VERIFY A STOCK YOURSELF
         </h2>
         <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-4 md:p-5 max-w-3xl mx-auto">
           <div className="flex items-center gap-2 mb-3">
@@ -252,7 +252,7 @@ export default function ResearchDeskPage() {
       {/* Step 4: Use Our Tools */}
       <section>
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
-          STEP 4: USE OUR FREE TOOLS
+          USE OUR FREE TOOLS
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <Link href="/watchlist">
