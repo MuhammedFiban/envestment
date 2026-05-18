@@ -7,6 +7,7 @@ import {
   Table,
   BookOpen,
   ScrollText,
+  Briefcase,
 } from "lucide-react";
 
 export default function ResearchDeskPage() {
@@ -114,10 +115,85 @@ export default function ResearchDeskPage() {
         </div>
       </section>
 
-      {/* Step 2: Verify a Stock (Screener.in) */}
+      {/* Step 2: Halal Mutual Funds */}
       <section>
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
-          STEP 2: VERIFY A STOCK YOURSELF
+          STEP 2: HALAL MUTUAL FUNDS
+        </h2>
+        <div className="grid sm:grid-cols-2 gap-4 max-w-4xl mx-auto">
+          {/* Tata Ethical Fund */}
+          <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-4 md:p-5">
+            <Briefcase className="w-6 h-6 text-[#8B7B6B] mb-2" />
+            <h3 className="text-lg font-bold mb-1">TATA ETHICAL FUND</h3>
+            <p className="text-xs text-gray-600 dark:text-gray-400 mb-2">
+              India’s oldest and largest Shariah‑compliant mutual fund. Invests
+              only in AAOIFI‑screened equities. Consistent long‑term
+              performance.
+            </p>
+            <ul className="text-xs text-gray-700 dark:text-gray-300 space-y-1">
+              <li>✅ Fund size: ₹8,500+ Cr</li>
+              <li>✅ Expense ratio: ~1.05%</li>
+              <li>✅ Available on Groww, Zerodha Coin</li>
+              <li>✅ SIP from ₹500/month</li>
+            </ul>
+          </div>
+
+          {/* Taurus Ethical Fund */}
+          <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-4 md:p-5">
+            <Briefcase className="w-6 h-6 text-[#8B7B6B] mb-2" />
+            <h3 className="text-lg font-bold mb-1">TAURUS ETHICAL FUND</h3>
+            <p className="text-xs text-gray-600 dark:text-gray-400 mb-2">
+              Dedicated Shariah fund with a focused portfolio of ethically
+              screened companies. Suitable for moderate risk investors.
+            </p>
+            <ul className="text-xs text-gray-700 dark:text-gray-300 space-y-1">
+              <li>✅ Fund size: ₹200+ Cr</li>
+              <li>✅ Expense ratio: ~1.25%</li>
+              <li>✅ Available on Groww, Zerodha Coin</li>
+              <li>✅ SIP from ₹500/month</li>
+            </ul>
+          </div>
+
+          {/* Nippon India Shariah Fund */}
+          <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-4 md:p-5">
+            <Briefcase className="w-6 h-6 text-[#8B7B6B] mb-2" />
+            <h3 className="text-lg font-bold mb-1">
+              NIPPON INDIA SHARIAH FUND
+            </h3>
+            <p className="text-xs text-gray-600 dark:text-gray-400 mb-2">
+              Tracks the Nifty Shariah 25 Index. Passive, low‑cost exposure to
+              the top 25 Shariah‑compliant companies.
+            </p>
+            <ul className="text-xs text-gray-700 dark:text-gray-300 space-y-1">
+              <li>✅ Fund type: Index Fund</li>
+              <li>✅ Expense ratio: ~0.30%</li>
+              <li>✅ Available on Groww, Zerodha Coin</li>
+              <li>✅ SIP from ₹500/month</li>
+            </ul>
+          </div>
+
+          {/* Quantum Ethical Fund */}
+          <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-4 md:p-5">
+            <Briefcase className="w-6 h-6 text-[#8B7B6B] mb-2" />
+            <h3 className="text-lg font-bold mb-1">QUANTUM ETHICAL FUND</h3>
+            <p className="text-xs text-gray-600 dark:text-gray-400 mb-2">
+              A direct‑plan Shariah fund with a low expense ratio and a
+              transparent, research‑backed investment approach.
+            </p>
+            <ul className="text-xs text-gray-700 dark:text-gray-300 space-y-1">
+              <li>✅ Fund type: Direct Plan</li>
+              <li>✅ Expense ratio: ~0.50%</li>
+              <li>✅ Available on Groww, Zerodha Coin</li>
+              <li>✅ SIP from ₹500/month</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Step 3: Verify a Stock (Screener.in) */}
+      <section>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
+          STEP 3: VERIFY A STOCK YOURSELF
         </h2>
         <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-4 md:p-5 max-w-3xl mx-auto">
           <div className="flex items-center gap-2 mb-3">
@@ -173,10 +249,10 @@ export default function ResearchDeskPage() {
         </div>
       </section>
 
-      {/* Step 3: Use Our Tools */}
+      {/* Step 4: Use Our Tools */}
       <section>
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
-          STEP 3: USE OUR FREE TOOLS
+          STEP 4: USE OUR FREE TOOLS
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <Link href="/watchlist">
